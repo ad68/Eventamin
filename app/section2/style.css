@@ -1,0 +1,7 @@
+.section {
+  transition: width 0.6s;
+}
+.btn:hover .section {
+  width: 100%;
+  transition: width 1s;
+}
