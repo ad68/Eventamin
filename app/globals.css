@@ -18,10 +18,19 @@
 .hov {
   background-image: linear-gradient(to right, #0665952e, #ffffff00);
 }
+.hov2 {
+  background-image: linear-gradient(to left, #0665952e, #ffffff00);
+}
 .hov:hover {
   background-image: linear-gradient(to right, #8E0C6A, #ffffff00);
+}
+.hov2:hover {
+  background-image: linear-gradient(to left, #8E0C6A, #ffffff00);
 }
 .back {
   background-image: linear-gradient(to right, #00f7ff29, #ffffff00);
   border-radius: 30px;
+}
+.hove:hover{
+  background-image: linear-gradient(to right, white, white);
 }

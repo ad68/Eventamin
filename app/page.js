@@ -161,6 +161,7 @@ export default function Home() {
       </section>
       
     </section>
+    {/*--------------- sec-7-1 -----------------*/}
      <section>
       <section className=" bg-[#131127] my-5 text-white py-8">
         <header className="font-bold text-center text-[40px] mb-6 pt-6">اگر تامین کننده هستید</header>
@@ -175,27 +176,77 @@ export default function Home() {
               <a className="hov p-4"><Image src='/star.png' width={34} height={34} alt="" className="inline"/>امکان ارتقای حساب کاربری برای دریافت حداکثر امکانات و بازخورد مشتری</a>
               <a className="hov p-4"><Image src='/star.png' width={34} height={34} alt="" className="inline"/>درج رایگان فهرست و تبلیغات آنلاین و چاپی ایونتامین</a>
             </nav>
-            <button className="bg-gradient-to-r from-[#066A95] to-[#B71789] rounded-[6px] py-3 px-7 mt-[26px] hover:text-[#8D0F69] hover:bg-white">
+            <button className="bg-gradient-to-r from-[#066A95] to-[#B71789] rounded-[6px] py-3 px-7 mt-[26px] hover:text-[#8D0F69] hove">
               <span className="text-[18px] font-medium">به عنوان تامین‌کننده ثبت نام کنید!</span>
             </button>
           </section>
         </section>
-        <section className="grid grid-cols-2 pl-12 pr-24 mt-4">
-        <Image src='/slider icons.png' width={51} height={12} alt="" className="justify-self-center"/>
+        <section className="grid grid-cols-3 pl-12 pr-24 mt-4">
+          <Image src='/slider icons.png' width={51} height={12} alt="" className="justify-self-center col-start-2"/>
 
-          <section className="flex gap-3 justify-self-end">
-            <button className="bg-[#ffffff1d] p-2 rounded-full hover:bg-[#BB6DA6]">
-              <Image src='/chevron_right_FILL0_wght400_GRAD0_opsz24.png' width={18} height={18} alt=""/>
-            </button>
-            <button className="bg-[#ffffff1d] p-2 rounded-full hover:bg-[#BB6DA6]">
-              <Image src='/chevron_left_FILL0_wght400_GRAD0_opsz24.png' width={18} height={18} alt=""/>
-            </button>
-          </section>
+            <section className="flex gap-3 col-start-4">
+              <button className="bg-[#ffffff1d] p-2 rounded-full hover:bg-[#BB6DA6]">
+                <Image src='/chevron_right_FILL0_wght400_GRAD0_opsz24.png' width={18} height={18} alt=""/>
+              </button>
+              <button className="bg-[#ffffff1d] p-2 rounded-full hover:bg-[#BB6DA6]">
+                <Image src='/chevron_left_FILL0_wght400_GRAD0_opsz24.png' width={18} height={18} alt=""/>
+              </button>
+            </section>
         </section>
       </section>
       <section className="w-[1600px] h-[824px] mx-auto bg-[#131127] my-5 text-white mySlides hidden">
       </section>
      </section>
+     {/*--------------- sec-7-2 -----------------*/}
+     <section className="bg-[#131127] my-5 text-white py-8">
+      <header className="font-bold text-center text-[40px] mb-6 pt-6">اگر خریدار هستید</header>
+      <section className="grid grid-cols-2 content-center px-12">
+        <section className="bg-gradient-to-r from-[#00f7ff09] text-center rounded-[30px] py-3 px-1">
+          <nav className="text-right grid grid-rows-6 gap-2">
+            <a className="hov2 p-4"><Image src='/star.png' width={34} height={34} alt="" className="inline"/>
+            دعوتنامه‌های ویژه حضور در جلسات و رودادهای تجاری برای خریداران</a>
+            <a className="hov2 p-4"><Image src='/star.png' width={34} height={34} alt="" className="inline"/>
+            دسترسی براساس علاقه‌مندی به اطلاعات رویدادهای در حال برگزاری و یا پیش‌رو</a>
+            <a className="hov2 p-4"><Image src='/star.png' width={34} height={34} alt="" className="inline"/>
+            دسترسی به تبلیغات ویژه تامین‌کنندگان و تخفیفات</a>
+            <a className="hov2 p-4"><Image src='/star.png' width={34} height={34} alt="" className="inline"/>
+            پیگیری RFP های ارسالی</a>
+            <a className="hov2 p-4"><Image src='/star.png' width={34} height={34} alt="" className="inline"/>
+            ذخیره لیست تامین‌کنندگان موردعلاقه</a>
+            <a className="hov2 p-4"><Image src='/star.png' width={34} height={34} alt="" className="inline"/>
+            فهرست تامین‌کنندگاندر بیش از 185 کشور جهان</a>
+            <a className="hov2 p-4"><Image src='/star.png' width={34} height={34} alt="" className="inline"/>
+            تماس مستقیم با تامین‌کنندگان بدون هزینه یا کارمزد</a>
+          </nav>
+          <button className="bg-gradient-to-r from-[#066A95] to-[#B71789] rounded-[6px] py-3 px-7 mt-[26px] hover:text-[#8D0F69] hove">
+              <span className="text-[18px] font-medium">به عنوان خریدار ثبت‌ نام کنید!</span>
+            </button>
+        </section>
+        <Image src='/image.png' width={532} height={479} alt=""  className="mr-[100px] place-self-center"/>
+      </section>
+      <section className="grid grid-cols-3 pl-12 pr-24 mt-4">
+          <Image src='/slider icons.png' width={51} height={12} alt="" className="justify-self-center col-start-2"/>
+
+            <section className="flex gap-3 col-start-4">
+              <button className="bg-[#ffffff1d] p-2 rounded-full hover:bg-[#BB6DA6]">
+                <Image src='/chevron_right_FILL0_wght400_GRAD0_opsz24.png' width={18} height={18} alt=""/>
+              </button>
+              <button className="bg-[#ffffff1d] p-2 rounded-full hover:bg-[#BB6DA6]">
+                <Image src='/chevron_left_FILL0_wght400_GRAD0_opsz24.png' width={18} height={18} alt=""/>
+              </button>
+            </section>
+        </section>
+     </section>
+    {/*--------------- sec-8 -----------------*/}
+      <section className="w-[1280px] mx-auto">
+        <header className="font-bold text-center text-[40px] mb-6 pt-6">لیست نمایشگاه های 1402</header>
+        <section className="grid grid-cols-3 grid-rows-2 gap-5 h-[485px]">
+          <Image src='/expredia-1-tiny 2.png' width={486} height={367} alt="" className="rounded-[10px] col-start-1 col-end-2 "/ >
+          <Image src='/1_PGL1222-2048x1304.png' width={396} height={260} alt="" className="rounded-[10px] col-start-2 col-end-3"/>
+          <Image src='/Rectangle 98.png' width={359} height={484} alt="" className="rounded-[10px]"/>
+          <Image src='/Rectangle 99.png' width={902} height={202} alt="" className="row-start-2 col-start-1 col-end-3 mt-8 rounded-[10px]"/>
+       </section>
+      </section>
     </main>
   );
 }
